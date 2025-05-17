@@ -1,5 +1,3 @@
-# core/associator.py
-
 from collections import defaultdict
 
 class Associator:

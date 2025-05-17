@@ -1,4 +1,3 @@
-# core/introspection.py
 
 def reflect(memory_trace, associations):
     total = len(memory_trace)
