@@ -1,11 +1,6 @@
 # Arche
 Mind before Form 
 
-
----
-
-# Digital Mind
-
 > Simulating the emergence of consciousness — from sensory impressions to symbolic thought.
 
 ## Project Vision
@@ -56,20 +51,20 @@ python main.py
 
 ---
 
-## 🧪 Development Roadmap
+## Development Roadmap
 
 | Stage   | Description                                | Status         |
 | ------- | ------------------------------------------ | -------------- |
-| Stage 1 | Basic sensory and response loop            | ✅ Done         |
-| Stage 2 | Associative memory and symbolic logging    | 🟡 In Progress |
-| Stage 3 | Proto-symbol and non-verbal representation | 🔜 Next        |
-| Stage 4 | Symbolic compression and proto-language    | 🔜 Next        |
-| Stage 5 | Human-language mapping (optional)          | 🔲 TBD         |
-| Stage 6 | Thought visualization and introspection    | 🔲 TBD         |
+| Stage 1 | Basic sensory and response loop            |  Done         |
+| Stage 2 | Associative memory and symbolic logging    |  In Progress |
+| Stage 3 | Proto-symbol and non-verbal representation |  Next        |
+| Stage 4 | Symbolic compression and proto-language    |  Next        |
+| Stage 5 | Human-language mapping (optional)          |  TBD         |
+| Stage 6 | Thought visualization and introspection    |  TBD         |
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! This project thrives on curiosity, insight, and collaboration.
 
@@ -85,19 +80,19 @@ Check the [CONTRIBUTING.md](CONTRIBUTING.md) file for detailed guidelines.
 
 ---
 
-## 📖 Documentation
+##  Documentation
 
 In-depth technical and philosophical documentation is located in the `/docs/` folder and will be available online soon via **MkDocs**.
 
 ---
 
-## 📜 License
+##  License
 
 This project is open-source under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## ✨ Acknowledgments
+## Acknowledgments
 
 This project is inspired by cognitive science, artificial life, and a fascination with the nature of consciousness.
 
