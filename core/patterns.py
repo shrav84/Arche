@@ -1,4 +1,3 @@
-# core/patterns.py
 
 from collections import defaultdict, Counter
 

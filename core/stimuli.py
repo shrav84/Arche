@@ -1,4 +1,3 @@
-# core/stimuli.py
 
 import random
 
