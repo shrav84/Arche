@@ -34,4 +34,5 @@ Instances of abusive, harassing, or otherwise unacceptable behavior may be repor
 
 ---
 
+
 Adapted from the [Contributor Covenant](https://www.contributor-covenant.org/), version 2.1.
