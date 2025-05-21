@@ -96,3 +96,4 @@ This project is open-source under the **MIT License**. See the [LICENSE](LICENSE
 
 This project is inspired by cognitive science, artificial life, and a fascination with the nature of consciousness.
 
+
