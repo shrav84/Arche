@@ -5,6 +5,7 @@ class PatternDetector:
     def __init__(self):
         self.transitions = defaultdict(Counter)
 
+
     def observe_sequence(self, trace):
         for i in range(len(trace) - 1):
             current = trace[i]['stimulus']['type']
