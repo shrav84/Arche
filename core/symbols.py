@@ -3,8 +3,7 @@
 class SymbolTable:
     def __init__(self):
         self.symbol_map = {}
-        self.counter = 1
-
+        self.counter = 1 
     def assign_symbol(self, stimulus_type):
         """Assign or retrieve a symbolic name for a stimulus type."""
         if stimulus_type not in self.symbol_map:
