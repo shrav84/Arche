@@ -1,15 +1,15 @@
-# main.py
-
-from core import stimuli, memory, associator, introspection, symbols, visualizer, patterns
+from core import stimuli, memory, associator, introspection, symbols, visualizer, patterns, preferences
 import time
 import json
 import os
 
-# === Initialize Core Modules === #
+# === Initialize Core Modules/SetUp=== #
 mind_memory = memory.Memory(decay_rate=0.05, min_weight=0.2)
 mind_associator = associator.Associator()
 mind_symbols = symbols.SymbolTable()
 mind_patterns = patterns.PatternDetector()
+mind_preferences = preferences.PreferenceSystem()
+
 
 log_path = "logs/experiences"
 os.makedirs(log_path, exist_ok=True)
@@ -35,7 +35,11 @@ def simulate_experience(cycles=10):
         # Simulate time passing (and decay happening)
         time.sleep(0.5)
 
-    # === Introspection & Analysis === #
+    # Update proto-preferences based on memory trace
+    mind_preferences.update_preferences(mind_memory.trace)
+    mind_preferences.print_preferences()
+
+    # Introspection & Analysis #
     print("\n[ Reflecting on Experience ]")
     top_associations = mind_associator.get_strongest_associations()
     introspection.reflect(mind_memory.trace, top_associations)
