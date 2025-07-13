@@ -5,7 +5,7 @@ Mind before Form
 
 ## Project Vision
 
-**Arche** is an ambitious open-source initiative aimed at developing an artificial life form that simulates human-like consciousness from the ground up. The project explores the evolution of thought, language, and self-awareness by mimicking how human beings experience, learn, and evolve.
+**Arche** is an ambitious initiative aimed at developing an artificial life form that simulates human-like consciousness from the ground up. The project explores the evolution of thought, language, and self-awareness by mimicking how human beings experience, learn, and evolve.
 
 We start with raw, non-verbal sensory impressions and gradually build toward symbolic reasoning, memory, curiosity, and introspection — ultimately culminating in a form of digital consciousness.
 
@@ -88,7 +88,7 @@ In-depth technical and philosophical documentation is located in the `/docs/` fo
 
 ##  License
 
-This project is open-source under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+This project is not open source. Do not copy, modify, or use without permission.See the [LICENSE](LICENSE) file for details.
 
 ---
 
